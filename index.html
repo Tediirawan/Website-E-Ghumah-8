@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website Budaya</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">E-Ghumah</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="sejarahDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Rangkuman
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="sejarahDropdown">
+                <li>
+                  <a class="dropdown-item" href="ciri%20khas/cirikhas.html"
+                    >Ciri Khas</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sejarah/sejarah.html"
+                    >Sejarah</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pelestarian/pelestarian.html"
+                    >Pelestarian</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="jenisDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Jenis
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="jenisDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="jenis/ghumah-baghi-tatahan.html"
+                    >Ghumah Baghi Tatahan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="jenis/ghumah-baghi-gilapan.html"
+                    >Ghumah Baghi Gilapan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="jenis/ghumah-baghi-sasak.html"
+                    >Ghumah Baghi Sasak</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="jenis/tempat-lainnya.html"
+                    >Tempat Lainnya</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="carousel-container" id="home">
+      <div id="landingCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#landingCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"></button>
+          <button
+            type="button"
+            data-bs-target="#landingCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button
+            type="button"
+            data-bs-target="#landingCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Galeri/foto1.jpg"
+              class="d-block w-100"
+              alt="ilustrasi budaya" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Selamat Datang di E-Ghumah</h2>
+              <p>Temukan cerita, tradisi, dan kebanggaan warisan lokal.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Galeri/Tataghan.jpg"
+              class="d-block w-100"
+              alt="Kesenian tradisional" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Pelestarian Tradisi</h2>
+              <p>Lestarikan budaya lewat generasi dan kegiatan bersama.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Galeri/gilapan.jpg"
+              class="d-block w-100"
+              alt="Makanan khas daerah" />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Ciri Khas yang Unik</h2>
+              <p>Mengenal lebuh dalam sejarah Ghumah Baghi.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#landingCarousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#landingCarousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <section class="text-center mb-5">
+        <h1 class="display-5 text-white">Mengenal Warisan Budaya</h1>
+        <p class="lead text-white">
+          Media untuk mengenal sejarah, ciri khas, dan upaya pelestarian budaya
+          lokal.
+        </p>
+      </section>
+      <section class="row g-4 mb-5">
+        <div class="col-lg-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h3 id="sejarah">Ciri khas</h3>
+            <p class="text-muted">
+              Ciri khas adalah detail kecil yang membuat setiap budaya berbeda
+              dan mudah dikenali.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Asal tradisi yang terikat dengan alam dan kegiatan masyarakat.
+              </li>
+              <li class="list-group-item">
+                Peran tokoh dan peristiwa penting dalam perkembangan budaya.
+              </li>
+              <li class="list-group-item">
+                Bagaimana sejarah membentuk rasa kebersamaan dan identitas.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h3>Sejarah</h3>
+            <p class="text-muted">
+              Sejarah budaya mencakup asal-usul, perubahan, dan nilai-nilai yang
+              diturunkan dari satu generasi ke generasi berikutnya.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Upacara adat, musik, dan tarian khas lokal.
+              </li>
+              <li class="list-group-item">
+                Motif seni dan pakaian tradisional yang unik.
+              </li>
+              <li class="list-group-item">
+                Makanan dan kerajinan tangan yang hanya ditemukan di wilayah
+                tersebut.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h3 id="pelestarian">Pelestarian</h3>
+            <p class="text-muted">
+              Pelestarian berarti menghidupkan kembali praktik tradisional dan
+              menjaganya tetap relevan.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                Edukasi budaya di sekolah dan komunitas.
+              </li>
+              <li class="list-group-item">
+                Kegiatan seni, festival, dan dokumentasi digital.
+              </li>
+              <li class="list-group-item">
+                Dukungan untuk pelaku seni dan penerus tradisi.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="mb-5">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <p class="text-white">Kenapa Budaya Itu Penting?</p>
+            <p class="text-white">
+              Budaya adalah jantung identitas kita. Dengan memahami dan menjaga
+              warisan budaya, kita memupuk rasa kebanggaan dan persatuan.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="text-white">Membangun kesadaran sejarah</li>
+              <li class="text-white">Memperkuat hubungan sosial</li>
+              <li class="text-white">Menjaga keberagaman khas nusantara</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+              <img
+                src="Galeri/foto6.jpg"
+                class="img-fluid"
+                alt="Ilustrasi budaya"
+                loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="text-center mb-4">
+          <h3 class="text-white">Tim Kami</h3>
+          <p class="text-white">
+            Para penggiat yang berdedikasi untuk menjaga dan mempromosikan
+            budaya.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 2.jpg"
+                class="card-img-top"
+                alt="Tim 1"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Tedi Irawan</h5>
+                <p class="card-text">Ketua</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 6.jpg"
+                class="card-img-top"
+                alt="Tim 2"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Erin Afriani</h5>
+                <p class="card-text">Tim Desainer Website</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 1.jpg"
+                class="card-img-top"
+                alt="Tim 3"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Melan Alfani</h5>
+                <p class="card-text">Wakil Ketua</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 4.jpg"
+                class="card-img-top"
+                alt="Tim 3"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Lestari Agustin</h5>
+                <p class="card-text">PDD</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 3.jpg"
+                class="card-img-top"
+                alt="Tim 3"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Della Adilla</h5>
+                <p class="card-text">Tim Desainer Website</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 5.jpg"
+                class="card-img-top"
+                alt="Tim 3"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Asni Agustia Mar,ah</h5>
+                <p class="card-text">PDD</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 7.jpg"
+                class="card-img-top"
+                alt="Tim 3"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Marsianah</h5>
+                <p class="card-text">Humas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 8.jpg"
+                class="card-img-top"
+                alt="Tim 3"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Dina Istiqoma</h5>
+                <p class="card-text">Bendahara</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card team-card h-100 text-center border-0 shadow-sm">
+              <img
+                src="Galeri/Tim 9.jpg"
+                class="card-img-top"
+                alt="Tim 3"
+                loading="lazy" />
+              <div class="card-body">
+                <h5 class="card-title">Vera Veronika</h5>
+                <p class="card-text">Seketaris</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container text-center">
+        <p class="mb-1">© 2026 Budaya Kita. Semua hak cipta dilindungi.</p>
+        <p class="mb-0">
+          Berbagi cerita, menjaga warisan, membangun masa depan.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

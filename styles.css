@@ -1,0 +1,134 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", sans-serif;
+  --muted: #6c757d;
+}
+
+body {
+  background: url("Galeri/foto 00.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.navbar-brand {
+  letter-spacing: 0.05em;
+}
+
+.carousel-container {
+  margin-top: -1px;
+  min-height: calc(100vh - 56px);
+  max-height: calc(100vh - 56px);
+  overflow: hidden;
+}
+
+.carousel-item {
+  min-height: calc(100vh - 56px);
+  max-height: calc(100vh - 56px);
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.team-card {
+  overflow: hidden;
+}
+
+.team-card img,
+.ratio img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.team-card img {
+  height: 320px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.footer {
+  border-top: 1px solid rgba(13, 12, 12, 0.1);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+}
+
+/* Utility tweaks */
+.lead {
+  color: #f3ece7;
+}
+
+.text-muted {
+  color: var(--muted) !important;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.user-is-tabbing .skip-link,
+.skip-link:focus {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 0.75rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  z-index: 9999;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Media thumbnail utility */
+.media-thumb {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  max-height: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    padding: 1rem;
+  }
+
+  .team-card img {
+    height: 260px;
+  }
+
+  .media-thumb {
+    max-height: 260px;
+  }
+}

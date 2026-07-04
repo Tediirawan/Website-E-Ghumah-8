@@ -1,0 +1,9 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background: url("../Galeri/foto17.jpg") center center / cover no-repeat fixed;
+    min-height: 100vh;
+}
